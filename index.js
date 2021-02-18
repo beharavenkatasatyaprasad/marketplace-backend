@@ -7,7 +7,7 @@ const mongoClient = mongodb.MongoClient;
 app.use(bodyParser.json());
 app.options("*", cors());
 app.use(cors());
-const url = 'mongodb+srv://satya:O55CfaDpoJml36sU@cluster0.f4mtj.mongodb.net/voiz?retryWrites=true&w=majority';
+const url = 'mongodb+srv://satyaprasadbehara:XXb8FmSKrm5r2MUL@cluster0.f4mtj.mongodb.net/voiz?retryWrites=true&w=majority';
 
 mongoClient.connect(url, {
     useNewUrlParser: true,
