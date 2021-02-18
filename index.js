@@ -19,7 +19,7 @@ mongoClient.connect(url, {
 });
 
 app.get("/", (req, res) => {
-    res.send(`<h1>Hello from server</h1>`);
+    res.send(`Hello from server`);
     res.end();
 });
 
